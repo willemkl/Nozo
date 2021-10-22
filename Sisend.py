@@ -1,2 +1,2 @@
 maatriks = [[""][""][""]]
-print([i][j])
+print(maatriks[i][j])
