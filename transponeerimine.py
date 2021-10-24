@@ -1,11 +1,3 @@
-from generaator import *
-
-a = generaator()
-
-m = a[1]
-n = a[2]
-a = a[0]
-
 def transponeerimine(a,n,m):
     maatriks = []
     i = 0
