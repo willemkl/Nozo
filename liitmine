@@ -1,0 +1,19 @@
+from generaator import *
+maatriks_1 = generaator()
+maatriks_2 = generaator()
+def liitmine(maatriks_1,maatriks_2):
+    summa=[]
+    
+    if len(maatriks_1) == len(maatriks_2) and len(maatriks_1[0]) == len(maatriks_2[0]):
+        for i in range(len(maatriks_1)):
+            # lisame tühja rea
+            summa.append([])
+            for j in range(len(maatriks_1[0])):
+                
+                summa[i].append(0)
+                
+                summa[i][j] = maatriks_1[i][j] + maatriks_2[i][j]
+        return summa
+    else:
+        return False
+print(liitmine(maatriks_1, maatriks_2))
