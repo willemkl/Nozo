@@ -1,6 +1,6 @@
 from generaator import *
 from väljund import *
-from lõng_list import *
+from lõng_list2 import *
 from korrutamine import *
 from transponeerimine import *
 from skalaar import *
